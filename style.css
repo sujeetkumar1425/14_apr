@@ -956,7 +956,7 @@ body {
 }
 .boxMail .boxMail-container .card2:hover h2{
     animation: texth2 1s forwards;
-    animation-delay: 2s;
+    animation-delay: 1s;
     transition: 0.3s;
 }
 @keyframes texth2{
