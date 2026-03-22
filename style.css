@@ -925,16 +925,16 @@ body {
 .boxMail .boxMail-container .card2 h3{
     font-family: 'Dancing Script', cursive;
     padding: 20px 0px 10px 60px;
-    opacity: 0;
-    visibility: hidden;
+    opacity: 1;
+    visibility: visible;
     font-size: 25px;
     text-shadow: 0 0 8px #FF7882;
 }
-.boxMail .boxMail-container .card2:hover h3{
+/* .boxMail .boxMail-container .card2:hover h3{
     animation: texth3 3s forwards;
     animation-delay: 2s;
-    transition: 1s;
-}
+    transition: 1s; 
+}*/
 @keyframes texth3{
     0%{
         opacity: 1;
@@ -954,14 +954,21 @@ body {
     font-size: 22px;
     opacity: 0;
 }
-.boxMail .boxMail-container .card2:hover h2{
+/* .boxMail .boxMail-container .card2:hover h2{
     animation: texth2 1s forwards;
-    animation-delay: 1s;
+    animation-delay: 2s;
     transition: 0.3s;
+} */
+.boxMail .boxMail-container .card2 h3,
+.boxMail .boxMail-container .card2 h2{
+    opacity: 1 !important;
+    visibility: visible !important;
+    animation: none !important;
+    transition: none !important;
 }
 @keyframes texth2{
     0%{
-        opacity: 0;
+        opacity: 1;
     }
     100%{
         opacity: 1;
